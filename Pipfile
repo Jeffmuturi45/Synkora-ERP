@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=5.1"
+djangorestframework = "*"
+django-environ = "*"
+django-extensions = "*"
+django-crispy-forms = "*"
+crispy-bootstrap5 = "*"
+psycopg2-binary = "*"
+mysqlclient = "*"
+pillow = "*"
+whitenoise = "*"
+gunicorn = "*"
+python-decouple = "*"
+
+[dev-packages]
+black = "*"
+ruff = "*"
+pytest = "*"
+pytest-django = "*"
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.11"
